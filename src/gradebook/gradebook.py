@@ -10,3 +10,10 @@ class Student:
     if score < 0:
         raise ValueError("Score cannot be negative")
     self.scores.append(score)
+
+
+    def add_score(self, score):
+    """Add a non-negative score to the student's scores."""
+    if score < 0:
+        raise ValueError("Score cannot be negative")
+    self.scores.append(score)
